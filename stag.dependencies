@@ -1,9 +1,7 @@
 [
   {
-    "repository": "LineageOS/android_device_oneplus_common",
-    "target_path": "device/oneplus/common",
-    "remote": "github",
-    "branch": "lineage-18.1"
+    "repository": "device_oneplus_common",
+    "target_path": "device/oneplus/common"
   },
   {
     "repository": "device_oneplus_sm8350-common",
@@ -16,9 +14,14 @@
     "branch": "lineage-18.1"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_oneplus",
+    "repository": "vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "remote": "github",
-    "branch": "lineage-18.1"
+    "branch": "r11-9pro"
+  },
+  {
+    "repository": "vendor_oneplus_apps",
+    "target_path": "vendor/oneplus/apps",
+    "remote": "gitlab-stag",
+    "branch": "r11"
   }
 ]
