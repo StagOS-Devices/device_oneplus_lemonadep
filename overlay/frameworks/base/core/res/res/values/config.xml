@@ -499,6 +499,6 @@
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
     <!-- Whether device supports in-display fingerprint when screen is turned off -->
-    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+    <bool name="config_supportsInDisplayFingerprintGesture">false</bool>
 
 </resources>
