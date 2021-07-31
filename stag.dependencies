@@ -8,10 +8,8 @@
     "target_path": "device/oneplus/sm8350-common"
   },
   {
-    "repository": "LineageOS/android_kernel_oneplus_sm8350",
-    "target_path": "kernel/oneplus/sm8350",
-    "remote": "github",
-    "branch": "lineage-18.1"
+    "repository": "kernel_oneplus_sm8350",
+    "target_path": "kernel/oneplus/sm8350"
   },
   {
     "repository": "vendor_oneplus",
@@ -23,5 +21,10 @@
     "target_path": "vendor/oneplus/apps",
     "remote": "gitlab-stag",
     "branch": "r11"
+  },
+  {
+    "repository": "android_hardware_qcom_thermal",
+    "target_path": "hardware/qcom-caf/thermal",
+    "remote": "stag"
   }
 ]
