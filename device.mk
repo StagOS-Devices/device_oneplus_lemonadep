@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PixelSetupWizard9PStringsOverlay
 
 # PowerShare
 PRODUCT_PACKAGES += \
