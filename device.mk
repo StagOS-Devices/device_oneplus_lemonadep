@@ -34,6 +34,9 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard9PStringsOverlay \
     OPlus9ProWifiOverlay
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-stag
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
