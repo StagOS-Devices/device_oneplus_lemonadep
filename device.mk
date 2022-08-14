@@ -28,9 +28,11 @@ TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
 
 # Overlays
 PRODUCT_PACKAGES += \
+    OPlusFrameworksResFHDTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
+    OPlusSystemUIResFHDTarget \
     PixelSetupWizard9PStringsOverlay \
     OPlus9ProWifiOverlay
 
