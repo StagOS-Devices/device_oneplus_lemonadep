@@ -25,7 +25,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-stag
+
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \

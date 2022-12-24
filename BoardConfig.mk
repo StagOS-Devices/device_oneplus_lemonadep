@@ -10,9 +10,10 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/lemonadep
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
