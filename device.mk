@@ -11,11 +11,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # Override  OTA assert
 TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
@@ -54,7 +49,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-stag
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
