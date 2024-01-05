@@ -8,6 +8,9 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
+
 # Alert slider
 PRODUCT_PACKAGES += \
     KeyHandler \
